@@ -23,4 +23,36 @@ body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Amélioration pour les écrans tactiles */
+@media (hover: none) and (pointer: coarse) {
+  .group:hover {
+    transform: none;
+  }
+  
+  .group:active {
+    transform: scale(0.98);
+  }
+}
+
+/* Optimisation pour les très petits écrans */
+@media (max-width: 375px) {
+  .container {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+}
+
+/* Amélioration de la lisibilité sur mobile */
+@media (max-width: 640px) {
+  * {
+    -webkit-tap-highlight-color: transparent;
+  }
+  
+  input, textarea, select {
+    font-size: 16px; /* Évite le zoom sur iOS */
+  }
 }

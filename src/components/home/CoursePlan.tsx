@@ -49,22 +49,22 @@ const CoursePlan = () => {
   ];
 
   return (
-    <div className="space-y-10 lg:space-y-12">
+    <div className="space-y-8 sm:space-y-10 lg:space-y-12 px-2 sm:px-0">
       <motion.div
         initial={{ opacity: 0, y: 30 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.7, duration: 0.6, ease: "easeOut" }}
         className="text-center"
       >
-        <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-800 mb-6">
+        <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-gray-800 mb-4 sm:mb-6">
           Plan du cours
         </h2>
-        <p className="text-gray-600 text-lg lg:text-xl max-w-3xl mx-auto leading-relaxed">
+        <p className="text-gray-600 text-base sm:text-lg lg:text-xl max-w-3xl mx-auto leading-relaxed px-4 sm:px-0">
           Explorez chaque section du chapitre pour maîtriser les concepts fondamentaux du MSI
         </p>
       </motion.div>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
+      <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-4 sm:gap-6 lg:gap-8">
         {sections.map((section, index) => (
           <SectionBlock
               key={index}

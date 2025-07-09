@@ -84,21 +84,21 @@ const SectionBlock: React.FC<SectionBlockProps> = ({ title, description, icon: I
       className="group h-full"
     >
       <Link href={link} className="block h-full">
-        <div className={`${colors.bg} ${colors.border} ${colors.hover} ${colors.shadow} border backdrop-blur-sm rounded-2xl p-6 lg:p-8 transition-all duration-300 cursor-pointer shadow-lg hover:shadow-xl h-full flex flex-col`}>
-          <div className="flex items-start gap-4 lg:gap-6 flex-1">
+        <div className={`${colors.bg} ${colors.border} ${colors.hover} ${colors.shadow} border backdrop-blur-sm rounded-xl sm:rounded-2xl p-4 sm:p-6 lg:p-8 transition-all duration-300 cursor-pointer shadow-lg hover:shadow-xl h-full flex flex-col`}>
+          <div className="flex items-start gap-3 sm:gap-4 lg:gap-6 flex-1">
             <motion.div 
               className={`${colors.icon} p-4 rounded-xl flex-shrink-0`}
               whileHover={{ rotate: 5, scale: 1.1 }}
               transition={{ duration: 0.2 }}
             >
-              <Icon className="w-6 h-6 lg:w-7 lg:h-7" />
+              <Icon className="w-5 h-5 sm:w-6 sm:h-6 lg:w-7 lg:h-7" />
             </motion.div>
             
             <div className="flex-1 min-w-0">
-              <h3 className={`${colors.title} text-lg lg:text-xl font-bold mb-3 leading-tight`}>
+              <h3 className={`${colors.title} text-base sm:text-lg lg:text-xl font-bold mb-2 sm:mb-3 leading-tight`}>
                 {title}
               </h3>
-              <p className={`${colors.description} text-sm lg:text-base leading-relaxed`}>
+              <p className={`${colors.description} text-xs sm:text-sm lg:text-base leading-relaxed`}>
                 {description}
               </p>
             </div>
@@ -109,7 +109,7 @@ const SectionBlock: React.FC<SectionBlockProps> = ({ title, description, icon: I
               whileHover={{ x: 4 }}
               transition={{ duration: 0.2 }}
             >
-              <ArrowRight className={`${colors.description} w-5 h-5 lg:w-6 lg:h-6`} />
+              <ArrowRight className={`${colors.description} w-4 h-4 sm:w-5 sm:h-5 lg:w-6 lg:h-6`} />
             </motion.div>
           </div>
         </div>

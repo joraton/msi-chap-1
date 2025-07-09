@@ -11,7 +11,7 @@ export default function Home() {
         <div className="absolute top-0 left-1/4 w-72 h-72 bg-blue-400/10 rounded-full blur-3xl"></div>
         <div className="absolute bottom-0 right-1/4 w-96 h-96 bg-purple-400/10 rounded-full blur-3xl"></div>
         
-        <div className="relative container mx-auto px-4 sm:px-6 lg:px-8 py-8 lg:py-12 max-w-7xl">
+        <div className="relative container mx-auto px-2 sm:px-4 md:px-6 lg:px-8 py-6 sm:py-8 lg:py-12 max-w-7xl">
           <CourseHeader />
           <CoursePlan />
         </div>
