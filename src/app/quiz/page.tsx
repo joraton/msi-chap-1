@@ -213,10 +213,10 @@ const QuizPage = () => {
             Aide-mémoire pour le quiz
           </h2>
           <div className="text-yellow-700 space-y-2 text-sm">
-            <p><strong>Chronologie :</strong> "54-60-80 : EDP-MSI-DSI"</p>
-            <p><strong>Modèle IMC :</strong> "Je Mange Correctement" (Intelligence-Modélisation-Choix)</p>
-            <p><strong>Qualité info :</strong> "PEPIAD" (Pertinence, Exactitude, Précision, Intelligibilité, Actualité, Disponibilité)</p>
-            <p><strong>Progression :</strong> "DICS" (Donnée → Information → Connaissance → Sagesse)</p>
+            <p><strong>Chronologie :</strong> &quot;54-60-80 : EDP-MSI-DSI&quot;</p>
+                <p><strong>Modèle IMC :</strong> &quot;Je Mange Correctement&quot; (Intelligence-Modélisation-Choix)</p>
+                <p><strong>Qualité info :</strong> &quot;PEPIAD&quot; (Pertinence, Exactitude, Précision, Intelligibilité, Actualité, Disponibilité)</p>
+                <p><strong>Progression :</strong> &quot;DICS&quot; (Donnée → Information → Connaissance → Sagesse)</p>
           </div>
         </motion.div>
 

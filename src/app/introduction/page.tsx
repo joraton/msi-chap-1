@@ -1,7 +1,7 @@
 'use client';
 
 import { motion } from 'framer-motion';
-import { ArrowLeft, ArrowRight, BookOpen, Clock, Target, Users, Lightbulb, CheckCircle, Zap } from 'lucide-react';
+import { ArrowLeft, ArrowRight, BookOpen, Clock, Lightbulb } from 'lucide-react';
 import Link from 'next/link';
 
 const IntroductionPage = () => {
@@ -85,7 +85,7 @@ const IntroductionPage = () => {
               </h3>
               <div className="bg-white p-4 rounded-lg">
                 <p className="text-yellow-700 font-medium mb-3">
-                  <strong>"MSI = Maîtriser les Systèmes Intelligemment"</strong>
+                  <strong>&quot;MSI = Maîtriser les Systèmes Intelligemment&quot;</strong>
                 </p>
                 <div className="text-yellow-600 text-sm space-y-2">
                   <p>• <strong>M</strong>aîtriser : Contrôler l&apos;évolution (EDP→MSI→DSI)</p>
@@ -95,9 +95,9 @@ const IntroductionPage = () => {
               </div>
             </motion.div>
 
-            <h2 className="text-2xl font-bold text-gray-800 mb-4">Objectifs d'apprentissage</h2>
+            <h2 className="text-2xl font-bold text-gray-800 mb-4">Objectifs d&apos;apprentissage</h2>
             <p className="text-gray-700 leading-relaxed mb-4">
-              À l'issue de ce chapitre, vous serez capable de :
+              À l&apos;issue de ce chapitre, vous serez capable de :
             </p>
             <ul className="text-gray-700 space-y-2 mb-6">
               <li>• Comprendre l&apos;évolution historique du MSI</li>

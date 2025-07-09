@@ -20,29 +20,29 @@ const CasPratiquePage = () => {
     {
       id: 1,
       title: "Évolution historique du MSI",
-      question: "Analysez l'évolution du rôle des systèmes d'information dans les organisations depuis 1954. Quels sont les facteurs clés qui ont contribué à cette évolution ?",
-      context: "Une entreprise industrielle souhaite comprendre comment optimiser son système d'information pour améliorer sa compétitivité.",
+      question: "Analysez l&apos;évolution du rôle des systèmes d&apos;information dans les organisations depuis 1954. Quels sont les facteurs clés qui ont contribué à cette évolution ?",
+      context: "Une entreprise industrielle souhaite comprendre comment optimiser son système d&apos;information pour améliorer sa compétitivité.",
       points: 15,
       tips: [
         "Identifiez les 3 grandes périodes : EDP, MSI, DSI",
         "Analysez les facteurs technologiques et organisationnels",
-        "Expliquez le passage d'une approche technique à une approche informationnelle",
-        "Évoquez l'émergence des SI stratégiques"
+        "Expliquez le passage d&apos;une approche technique à une approche informationnelle",
+        "Évoquez l&apos;émergence des SI stratégiques"
       ],
-      correction: "L'évolution du MSI s'articule autour de plusieurs phases clés :\n\n1. **1954 - Naissance de l'EDP** : Premier ordinateur en entreprise chez General Electric, automatisation des calculs comptables.\n\n2. **Années 1960 - Émergence du MSI** : Passage d'une vision purement technique (EDP) à une approche informationnelle. Objectif : fournir la bonne information, à la bonne personne, au bon moment.\n\n3. **Années 1980 - Création des DSI** : Reconnaissance de l'importance stratégique des SI, recul des problématiques purement technologiques.\n\n**Facteurs clés d'évolution :**\n- Progrès technologiques (miniaturisation, réseaux)\n- Complexification des organisations\n- Besoin de coordination entre systèmes\n- Émergence de la dimension stratégique des SI\n- Développement des approches méthodologiques"
+      correction: "L&apos;évolution du MSI s&apos;articule autour de plusieurs phases clés :\n\n1. **1954 - Naissance de l&apos;EDP** : Premier ordinateur en entreprise chez General Electric, automatisation des calculs comptables.\n\n2. **Années 1960 - Émergence du MSI** : Passage d&apos;une vision purement technique (EDP) à une approche informationnelle. Objectif : fournir la bonne information, à la bonne personne, au bon moment.\n\n3. **Années 1980 - Création des DSI** : Reconnaissance de l&apos;importance stratégique des SI, recul des problématiques purement technologiques.\n\n**Facteurs clés d&apos;évolution :**\n- Progrès technologiques (miniaturisation, réseaux)\n- Complexification des organisations\n- Besoin de coordination entre systèmes\n- Émergence de la dimension stratégique des SI\n- Développement des approches méthodologiques"
     },
     {
       id: 2,
-      title: "Qualité de l'information",
-      question: "Une entreprise constate des erreurs récurrentes dans ses prises de décision. Le directeur suspecte un problème de qualité de l'information. Proposez une grille d'analyse pour évaluer la qualité de l'information et des recommandations d'amélioration.",
+      title: "Qualité de l&apos;information",
+      question: "Une entreprise constate des erreurs récurrentes dans ses prises de décision. Le directeur suspecte un problème de qualité de l&apos;information. Proposez une grille d&apos;analyse pour évaluer la qualité de l&apos;information et des recommandations d&apos;amélioration.",
       points: 12,
       tips: [
-        "Utilisez les 6 critères de qualité de l'information",
+        "Utilisez les 6 critères de qualité de l&apos;information",
         "Appliquez le principe GIGO",
         "Proposez des solutions concrètes",
         "Évoquez les enjeux organisationnels"
       ],
-      correction: "**Grille d'analyse de la qualité de l'information :**\n\n**1. Critères d'évaluation :**\n- **Pertinence** : L'information répond-elle aux besoins ?\n- **Exactitude** : Reflète-t-elle la réalité ?\n- **Précision** : Est-elle sans ambiguïté ?\n- **Intelligibilité** : Est-elle compréhensible ?\n- **Actualité** : Est-elle à jour ?\n- **Disponibilité** : Est-elle accessible au bon moment ?\n\n**2. Diagnostic des problèmes :**\n- Application du principe GIGO (Garbage In, Garbage Out)\n- Identification des sources d'erreur\n- Analyse des processus de collecte et traitement\n\n**3. Recommandations :**\n- Mise en place de contrôles qualité\n- Formation des utilisateurs\n- Amélioration des processus de saisie\n- Définition de procédures de validation\n- Mise à jour régulière des données"
+      correction: "**Grille d&apos;analyse de la qualité de l&apos;information :**\n\n**1. Critères d&apos;évaluation :**\n- **Pertinence** : L&apos;information répond-elle aux besoins ?\n- **Exactitude** : Reflète-t-elle la réalité ?\n- **Précision** : Est-elle sans ambiguïté ?\n- **Intelligibilité** : Est-elle compréhensible ?\n- **Actualité** : Est-elle à jour ?\n- **Disponibilité** : Est-elle accessible au bon moment ?\n\n**2. Diagnostic des problèmes :**\n- Application du principe GIGO (Garbage In, Garbage Out)\n- Identification des sources d&apos;erreur\n- Analyse des processus de collecte et traitement\n\n**3. Recommandations :**\n- Mise en place de contrôles qualité\n- Formation des utilisateurs\n- Amélioration des processus de saisie\n- Définition de procédures de validation\n- Mise à jour régulière des données"
     },
     {
       id: 3,
@@ -102,7 +102,7 @@ const CasPratiquePage = () => {
     }
   ];
 
-  const [selectedExercise, setSelectedExercise] = useState<number | null>(null);
+
   const [showCorrection, setShowCorrection] = useState<{ [key: number]: boolean }>({});
 
   const toggleCorrection = (exerciseId: number) => {
@@ -141,7 +141,7 @@ const CasPratiquePage = () => {
                 Cas pratique
               </h1>
               <p className="text-gray-600">
-                Exercices pratiques et cas concrets pour l'examen DSCG
+                Exercices pratiques et cas concrets pour l&apos;examen DSCG
               </p>
             </div>
           </div>

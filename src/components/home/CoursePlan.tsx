@@ -8,7 +8,7 @@ const CoursePlan = () => {
   const sections = [
     {
       title: "Introduction",
-      description: "Découvrez les fondements et l'évolution du MSI",
+      description: "Découvrez les fondements et l&apos;évolution du MSI",
       icon: Rocket,
       link: "/introduction",
       color: "blue",
@@ -40,7 +40,7 @@ const CoursePlan = () => {
     },
     {
       title: "Cas pratique",
-      description: "Exercices pratiques pour l'examen",
+      description: "Exercices pratiques pour l&apos;examen",
       icon: Award,
       link: "/cas-pratique",
       color: "indigo",
