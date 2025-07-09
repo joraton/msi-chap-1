@@ -43,7 +43,7 @@ const CourseHeader = () => {
             transition={{ delay: 0.4, duration: 0.5 }}
             className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold text-gray-800 mb-3 sm:mb-4 leading-tight text-center md:text-left"
           >
-            Introduction au Management des Systèmes d&#39;Information
+            Introduction au Management des Systèmes d'Information
           </motion.h1>
           
           <motion.p 
@@ -52,8 +52,8 @@ const CourseHeader = () => {
             transition={{ delay: 0.5, duration: 0.5 }}
             className="text-gray-600 leading-relaxed mb-4 sm:mb-6 text-sm sm:text-base lg:text-lg text-center md:text-left"
           >
-            Découvrez les fondements du MSI, de l&#39;évolution historique aux concepts clés, 
-            en passant par les enjeux stratégiques des systèmes d&#39;information modernes.
+            Découvrez les fondements du MSI, de l'évolution historique aux concepts clés, 
+            en passant par les enjeux stratégiques des systèmes d'information modernes.
           </motion.p>
           
           {/* Badges */}

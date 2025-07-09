@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "MSI Chapitre 1 - Introduction au Management des Systèmes d&#39;Information",
+  title: "MSI Chapitre 1 - Introduction au Management des Systèmes d'Information",
     description: "Cours DSCG UE5 - Management des Systèmes d&apos;Information - Chapitre 1",
 };
 
